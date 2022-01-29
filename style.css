@@ -1,47 +1,74 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.nav-bar{
-    background-color: #888888;
-    height: 141px;
+.nav-bar {
+  background-color: #888888;
+  height: 141px;
 }
 
-.left-bar-side{
-    float: left;
-    width: 50%;
+.left-bar-side {
+  float: left;
+  width: 50%;
 }
 
-.right-bar-side{
-    float: right;
-    width: 50%;
-    text-align: right;
+.right-bar-side {
+  float: right;
+  width: 50%;
+  text-align: right;
 }
 
-.icone{
-display:inline-block;
-margin-left: 79px;
-margin-top: 37px;
+.icone {
+  display: inline-block;
+  margin-left: 79px;
+  margin-top: 37px;
 }
 
-.nav-right-buttons{
-    display: inline-block;
-    margin-top: 55px;
-    margin-right: 45px;
-    font-size: 24px;
-    font-weight: 800;
+.nav-right-buttons {
+  display: inline-block;
+  margin-top: 55px;
+  margin-right: 45px;
+  font-size: 24px;
+  font-weight: 800;
 }
 
-.nav-left-button{
-    font-size: 48px;
-    font-weight: 700;
-    margin-left: 38px;
-vertical-align: 12px;
+.nav-left-button {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 38px;
+  vertical-align: 12px;
 }
 
-.nav-text{
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    text-decoration: none;
+.nav-text {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.text {
+  height: 44px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #888888;
+}
+
+.information-bar {
+  height: 44px;
+  border-bottom: solid #888888 1px;
+}
+
+.text.right {
+  display: inline-block;
+  margin-top: 12px;
+  float: right;
+  margin-right: 550px;
+}
+
+.text.left {
+  display: inline-block;
+  margin-top: 12px;
+  float: left;
+  margin-left: 550px;
 }
