@@ -31,6 +31,7 @@ body {
   margin-right: 45px;
   font-size: 24px;
   font-weight: 800;
+  vertical-align: 15px;
 }
 
 .nav-left-button {
@@ -71,4 +72,31 @@ body {
   margin-top: 12px;
   float: left;
   margin-left: 550px;
+}
+
+.basket{
+  display: inline-block;
+}
+
+.basket-icone{
+  display: inline-block;
+  margin-top: 49px;
+  margin-right: 59px;
+}
+
+.circle{
+  position:relative;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+right: -24px; top: -52px;
+}
+
+.circle-text{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
 }
