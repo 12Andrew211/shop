@@ -61,16 +61,17 @@ body {
 }
 
 .text.right {
-  display: inline-block;
-  margin-top: 12px;
+
   float: right;
+  display: block;
+  margin-top: 12px;
   margin-right: 550px;
 }
 
 .text.left {
-  display: inline-block;
-  margin-top: 12px;
   float: left;
+  display: block;
+  margin-top: 12px;
   margin-left: 550px;
 }
 
@@ -91,12 +92,71 @@ body {
   border-radius: 50%;
   background-color: red;
   text-align: center;
-right: -24px; top: -52px;
+  right: -24px; 
+  top: -52px;
 }
 
-.circle-text{
+.counter-value{
+  box-sizing: border-box;
+  display: inline-block;
   font-family: sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 800;
 }
+
+.item{
+  height: 500px;
+  width: 387px;
+  border-radius: 30px;
+  border: solid 1px;
+  margin-bottom: 113px;
+}
+
+.left-items{
+  float:left;
+  margin-top: 85px;
+  margin-left: 320px;
+  text-align: center;
+}
+
+.right-items{
+  float:right;
+  margin-top: 85px;
+  margin-right: 320px;
+  text-align: center;
+}
+
+.item-buttons{
+  height: 62px;
+  width: 276px;
+  border-radius: 10px;
+  border: none;
+  background-color: #888888;
+  margin-bottom: 32px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  visibility: hidden;
+}
+
+.item-img{
+margin-top: 38px;
+}
+
+.item-text{
+  font-size: 24px;
+  color: #888888;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-top: 29px;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item:hover .item-buttons{
+  visibility: visible;
+}
+
