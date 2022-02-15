@@ -7,9 +7,9 @@
     <header>
       <nav class="nav-bar">
         <div class="left-bar-side">
-          <a href="" class="icone"
-            ><img src="img/Combined-Shape.svg" id="icone"
-          /></a>
+          <a href="" class="icone">
+            <img src="img/Combined-Shape.svg" id="icone" />
+          </a>
           <a href="" class="nav-left-button nav-text">Магазин</a>
         </div>
         <div class="right-bar-side">
@@ -17,19 +17,54 @@
           <a href="" class="nav-right-buttons nav-text">О нас</a>
           <a href="" class="nav-right-buttons nav-text">Зарегестрироваться</a>
           <span class="basket">
-          <img src="img/Vector.svg" alt="" class="basket-icone" />
-          <div class="circle">
-            <span class="circle-text">0</span>
-          </div>
-        </span>
+            <img src="img/Vector.svg" alt="" class="basket-icone" />
+            <div class="circle">
+              <span class="counter-value" id="counter-value"></span>
+            </div>
+          </span>
         </div>
       </nav>
     </header>
     <section>
       <div class="information-bar">
-        <span class="text left"
-          >В течении всего месяца скидки на все товары</span
-        ><a class="text right" href="">Начать покупки</a>
+        <span class="text left">
+          В течении всего месяца скидки на все товары
+        </span>
+        <a class="text right" href="">Начать покупки</a>
+      </div>
+    </section>
+    <section>
+      <div class="left-items">
+        <div class="item">
+          <img class="item-img" src="img/Rectangle 3.png" alt="" />
+          <div class="item-text">Гарри Поттер и филосовский камень</div>
+          <div class="div-buttons">
+            <button class="item-buttons" onclick="AddToBasket()">В корзину</button>
+          </div>
+        </div>
+        <div class="item">
+          <img class="item-img" src="img/Rectangle 3 (1).png" alt="" />
+          <div class="item-text">Вторя жизнь Уве</div>
+          <div class="div-buttons">
+            <button class="item-buttons" onclick="AddToBasket()">В корзину</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-items">
+        <div class="item">
+          <img class="item-img" src="img/Rectangle 3 (2).png" alt="" />
+          <div class="item-text">Цветы для Элджернона</div>
+          <div class="div-buttons">
+            <button class="item-buttons" onclick="AddToBasket()">В корзину</button>
+          </div>
+        </div>
+        <div class="item">
+          <img class="item-img" src="img/Rectangle 3 (3).png" alt="" />
+          <div class="item-text">Гордость и предубеждение</div>
+          <div class="div-buttons">
+            <button class="item-buttons" onclick="AddToBasket()">В корзину</button>
+          </div>
+        </div>
       </div>
     </section>
     <script src="script.js"></script>
